@@ -1,0 +1,197 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #121212;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Header Styles */
+header {
+    background-color: #000;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #00f1e6; /* Glowing blue */
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #8aff00; /* Glowing green */
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#home {
+    background: url('your-hero-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home h2 {
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+#home p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #00f1e6;
+    color: #121212;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+    background-color: #8aff00; /* Glowing green */
+}
+
+/* Services Section */
+#services {
+    padding: 80px 0;
+    background-color: #1a1a1a;
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.service-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service-box {
+    background-color: #252525;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.service-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #00f1e6;
+}
+
+.service-box p {
+    font-size: 16px;
+    color: #bbb;
+}
+
+/* Impact Section */
+#impact {
+    padding: 80px 0;
+    background-color: #121212;
+    text-align: center;
+}
+
+#impact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#impact p {
+    font-size: 18px;
+    color: #bbb;
+}
+
+/* Contact Section */
+#contact {
+    padding: 80px 0;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+form button {
+    padding: 15px 30px;
+    background-color: #00f1e6;
+    color: #121212;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8aff00; /* Glowing green */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #bbb;
+    font-size: 14px;
+}
